@@ -104,5 +104,5 @@ dataPanTrans.to_csv('mycoords.csv', header=False, index=False)
 
 # R subprocess to get the plots
 command = 'Rscript'
-path2script = 'C:/Users/Issam/PycharmProjects/untitled/traj.r'
+path2script = 'C:/Users/where ever it is/traj.r'
 subprocess.call([command, path2script], shell=True)
